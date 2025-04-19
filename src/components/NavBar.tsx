@@ -53,7 +53,7 @@ const NavBar = () => {
           <Typography variant="h1" component="div">
             coffee
           </Typography>
-          🙏🏻
+          🚫
         </div>
         {/*  */}
         <div>
