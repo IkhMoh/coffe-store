@@ -56,7 +56,7 @@ const NavBar = () => {
           🚫     
         </div>
         {/*  */} 
-        <div>
+        <div className="flex space-x-4 ">
           <ul>
             <li>Home</li>
             <li>About</li>
