@@ -1,8 +1,5 @@
 import React from "react";
-import Typography from "@mui/material/Typography";
-import { styled, alpha } from "@mui/material/styles";
-import InputBase from "@mui/material/InputBase";
-import SearchIcon from "@mui/icons-material/Search";
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 const NavBar = () => {
   return (
@@ -34,8 +31,7 @@ const NavBar = () => {
                     className="text-gray-500 transition hover:text-gray-500/75"
                     href="#"
                   >
-                    {" "}
-                    About{" "}
+                    About Us
                   </a>
                 </li>
 
@@ -44,8 +40,7 @@ const NavBar = () => {
                     className="text-gray-500 transition hover:text-gray-500/75"
                     href="#"
                   >
-                    {" "}
-                    Careers{" "}
+                    Menu
                   </a>
                 </li>
 
@@ -54,8 +49,7 @@ const NavBar = () => {
                     className="text-gray-500 transition hover:text-gray-500/75"
                     href="#"
                   >
-                    {" "}
-                    History{" "}
+                    Shop
                   </a>
                 </li>
 
@@ -64,28 +58,7 @@ const NavBar = () => {
                     className="text-gray-500 transition hover:text-gray-500/75"
                     href="#"
                   >
-                    {" "}
-                    Services{" "}
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
-                    href="#"
-                  >
-                    {" "}
-                    Projects{" "}
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
-                    href="#"
-                  >
-                    {" "}
-                    Blog{" "}
+                    Contact Us
                   </a>
                 </li>
               </ul>
@@ -93,12 +66,7 @@ const NavBar = () => {
 
             <div className="flex items-center gap-4">
               <div className="sm:flex sm:gap-4">
-                <a
-                  className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm"
-                  href="#"
-                >
-                  Login
-                </a>
+                <MdOutlineShoppingCart />
 
                 <div className="hidden sm:flex">
                   <a
