@@ -15,7 +15,7 @@ export default function Home() {
                 <p className="mt-4 text-gray-700">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Tenetur doloremque saepe architecto maiores repudiandae amet
-                  perferendis repellendus, reprehenderit voluptas sequi.
+                   repellendus, reprehenderit voluptas sequi.
                 </p>
               </div>
             </div>
